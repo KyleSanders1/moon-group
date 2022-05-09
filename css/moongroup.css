@@ -1,0 +1,298 @@
+html,
+body {
+    font-size: 12px;
+    background-color: rgb(68, 68, 68)!important;
+    height: 100%;
+}
+
+#login {
+    width: 100%;
+    max-width: 450px;
+    margin: 10% auto 0 auto;
+    padding: 0;
+    border: 2px solid rgb(253, 253, 253);
+    border-radius: 5px;
+}
+
+#loginform {
+    padding: 10px 50px;
+    background-image: url("/images/logo.jpg");
+    background-position: center;
+    background-repeat: repeat-y;
+    background-size: cover;
+}
+
+div[name=ExportTable] {
+    display: none;
+}
+
+ul{
+  max-height: 60vh;
+  overflow-y: auto;
+}
+
+.error {
+  color: red;
+}
+
+.exportAlbum {
+  background-color: rgb(25, 255, 37, 0.4);
+}
+
+#TotalTable div[name=albums] td {
+  cursor: pointer;
+}
+
+.right {
+  float: right;
+}
+
+.badge {
+  color: unset !important;
+}
+
+table thead tr th {
+  /* Important */
+  background-color: rgb(241, 235, 235)!important;
+  position: sticky!important;
+  z-index: 100;
+  top: 0;
+}
+
+#main {
+  background-image: url("/images/work_top.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 10%;
+}
+
+#main>div {
+  background-color: rgba(206, 206, 206, 0.2);
+  border-radius: 6px;
+  box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .15)!important;
+  padding: 5px;
+}
+
+.listitem {
+  padding: .375rem .75rem;
+  cursor: pointer;
+}
+
+.listitem.active {
+  font-weight: bolder;
+}
+
+.listitem:hover {
+  font-weight: bolder;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+.pointer:hover {
+  box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .15);
+}
+
+.fright {
+  float: right;
+}
+
+.btn-block {
+  display: block;
+  width: 100%;
+}
+
+a {
+  color: blue;
+}
+
+/* start nav bar --------------------------------------------------------------- */
+
+ ::selection {
+  background: #1A1A1A;
+  color: #aaf;
+}
+
+.alternate ::selection {
+  background: white;
+  color: #1A1A1A;
+}
+
+ul,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a,
+.logo {
+  font-family: "Lato", "Verdana", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-weight: 400;
+  margin: 0;
+  padding: 0;
+}
+
+.inner {
+  width: 800px;
+  position: relative;
+  margin: 0 auto;
+}
+
+header {
+  position: fixed;
+  width: 100%;
+  padding-top: 50px;
+  background: #1A1A1A;
+  transition: 0.7s all;
+  z-index: 100;
+  padding: 20px;
+}
+
+header.alt-header {
+  background: #fff;
+}
+
+.alt-header a {
+  color: #1A1A1A;
+}
+
+body.header-fixed header {
+  position: fixed;
+  top: 0;
+  right: 0;
+  padding-top: 0;
+  width: 100%;
+  z-index: 2;
+}
+
+li {
+  list-style: none;
+}
+
+nav {
+  overflow: hidden;
+}
+
+nav ul {
+  float: right;
+}
+
+nav li {
+  display: inline;
+  float: left;
+  margin-top: 10px;
+}
+
+nav a {
+  display: inline-block;
+  color: #7A7A7A;
+  text-decoration: none;
+  padding: 0px;
+  transition: 0.3s all;
+}
+
+nav a:hover {
+  color: white;
+}
+
+.logo {
+  float: left;
+  color: #fff;
+  font-size: 50px;
+  line-height: 50px;
+  transition: 0.7s all;
+  margin-left: -150px;
+  height: 15px;
+  margin-top: 10px;
+}
+
+.alt-header .logo {
+  color: #1A1A1A;
+}
+
+body.header-fixed .logo {
+  font-size: 30px;
+}
+
+header .alternate {
+  background: #1A1A1A;
+  color: #fff;
+}
+
+header .fas {
+  color: white;
+  margin-top: 15px;
+}
+
+.table {
+  width: auto;
+  margin-bottom: 1rem;
+  color: #212529;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+*,
+ ::after,
+ ::before {
+  box-sizing: border-box;
+}
+
+table {
+  display: table;
+  border-collapse: separate;
+  box-sizing: border-box;
+  text-indent: initial;
+  border-spacing: 2px;
+  border-color: #7A7A7A;
+}
+
+#menu-items {
+  display: none;
+  padding: 25px;
+  font-weight: 400;
+  text-align: center;
+  height: 0px;
+}
+
+#menu-items a {
+  color: #7A7A7A;
+  text-decoration: none;
+  padding: 25px;
+  cursor: pointer;
+}
+
+#menu-items a:hover,
+#menu-items a.active {
+  color: white;
+  transition: 0.3s
+}
+
+/* end nav bar --------------------------------------------------------------- */
+
+#main>div:not(#home) {
+  display: none;
+}
+
+ul {
+  max-height: 70vh;
+}
+
+.icon {
+  cursor: pointer;
+}
+
+.csv-import {
+  height: 100vh;
+  padding: 10%;
+  max-width: 40%;
+}
